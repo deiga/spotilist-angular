@@ -1,0 +1,17 @@
+{
+  "name": "spotilist",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "*",
+    "angular-resource": "*",
+    "angular-route": "*",
+    "angular-bootstrap": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "*",
+    "angular-scenario": "*"
+  },
+  "overrides": {
+
+  }
+}
