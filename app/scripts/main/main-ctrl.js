@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('spotilist')
-  .controller('MainCtrl', function ($scope, Users) {
+  .controller('MainCtrl', function ($scope, Users, Tracks) {
     $scope.awesomeThings = [
       {
         'key': 'angular',
@@ -61,6 +61,7 @@ angular.module('spotilist')
       }
     ];
     $scope.user = Users.get('deiga');
+    $scope.tracks = Tracks.get(['2XlWDjXQsHtGHqKa0jq7T5', '1nvPNYcP9c9ND8yqAlJ6Q4']);
     angular.forEach($scope.awesomeThings, function(awesomeThing) {
       awesomeThing.rank = Math.random();
     });
