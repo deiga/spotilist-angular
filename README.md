@@ -1,6 +1,8 @@
  spotilist WebApp!
 =====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/deiga/spotilist-angular.svg)](https://greenkeeper.io/)
+
 ---------------
 
 This is an Angular.js App and is powered by [Boom Angular Generator](https://npmjs.org/package/generator-boom)
